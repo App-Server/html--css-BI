@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    position: fixed;
+    background: rgb(213, 138, 0);
+    padding: 20px;
+    width: 210px;
+    height: 30px;          
+}
+
+header .left{
+    margin-left: 25px;
+}
+
+header .right{
+    margin-top: -10px;
+}
+
+h1{
+    color: rgb(41, 42, 42);
+}
+
+a{
+    transition-delay: 0.5s;
+}
+
+.left h3{
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 800;
+}
+.sair_btn{
+    padding: 5px;
+    background: rgb(173, 173, 173);
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    /* color: #fff; */
+    transition: 0.5s;
+    transition-property:  background;
+}
+.sair_btn:hover{
+    background: rgb(255, 255, 255);
+}
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    margin-top: 70px;
+    padding-top: 10px;
+    left: 0;
+    background: rgb(213, 138, 0);
+}
+.sidebar .image{
+    width: 200px;
+   
+}
+.sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+.sidebar a:hover{
+    background: rgb(150, 144, 76);
+}
+.sidebar ion-icon{
+    padding-right: 5px;
+}
+
+.foto{
+    width: 70%;
+    margin-left: 300px;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+.button{
+    width: 100px;
+    height: 30px;    
+}
+
+iframe{
+    border-radius: 5px;
+}
+
+.power{
+    width: 60%;
+    margin-left: 400px;    
+}
+
+.power img{
+    margin-top: 150px;
+}
